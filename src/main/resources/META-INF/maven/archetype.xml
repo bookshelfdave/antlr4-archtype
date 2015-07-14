@@ -1,0 +1,12 @@
+<archetype xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0 http://maven.apache.org/xsd/archetype-1.0.0.xsd">
+  <id>antlr4-archtype</id>
+
+  <sources>
+    <source>src/main/java/org/metadave/app/App.java</source>
+    <source>src/main/antlr4/org.metadave.app.parser.App.g4</source>
+  </sources>
+  <testSources>
+    <source>src/test/java/org/metadave/app/AppTest.java</source>
+  </testSources>
+</archetype>
