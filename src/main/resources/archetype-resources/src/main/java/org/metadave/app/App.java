@@ -2,7 +2,10 @@ package org.metadave.app;
 import org.antlr.v4.runtime.ANTLRInputStream;
 import org.antlr.v4.runtime.CommonTokenStream;
 
-
+/*
+ *
+ * Create src/main/antlr4/org.metadave.app.parser.App.g4
+ */
 public class App {
 
     public static void compile(String txt) throws Exception {
